@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Mkb.Auth.DataContracts\Mkb.Auth.DataContracts.csproj" />
+      <ProjectReference Include="..\Mkb.Auth.Middleware\Mkb.Auth.Middleware.csproj" />
+    </ItemGroup>
+
+</Project>

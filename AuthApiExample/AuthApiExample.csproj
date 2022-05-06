@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Mkb.Auth.Middleware\Mkb.Auth.Middleware.csproj" />
+      <ProjectReference Include="..\Mkb.Auth.DataMongo\Mkb.Auth.DataMongo.csproj" />
+      <ProjectReference Include="..\Mkb.Auth.Services\Mkb.Auth.Services.csproj" />
+      <ProjectReference Include="..\Mkb.Auth.DataSql\Mkb.Auth.DataSql.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.7" />
+    </ItemGroup>
+
+</Project>

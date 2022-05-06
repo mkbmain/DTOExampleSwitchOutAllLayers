@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Mkb.Auth.DataContracts\Mkb.Auth.DataContracts.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="MongoDB.Bson" Version="2.13.1" />
+        <PackageReference Include="MongoDB.Driver" Version="2.13.1" />
+        <PackageReference Include="Pluralize.NET" Version="1.0.2" />
+    </ItemGroup>
+</Project>

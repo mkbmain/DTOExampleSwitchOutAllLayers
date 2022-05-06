@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthApiExample", "AuthApiExample\AuthApiExample.csproj", "{9722D0EB-7270-4CD4-A37E-7D47A540C4BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mkb.Auth.DataSql", "Mkb.Auth.DataSql\Mkb.Auth.DataSql.csproj", "{A41F7CA8-2DFE-4246-976E-5252BA822085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mkb.Auth.DataContracts", "Mkb.Auth.DataContracts\Mkb.Auth.DataContracts.csproj", "{A0D3D73D-79A0-4854-99DB-EA40C7D2431A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mkb.Auth.DataMongo", "Mkb.Auth.DataMongo\Mkb.Auth.DataMongo.csproj", "{514D027A-E769-4B72-8F6F-694A241EF364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mkb.Auth.Services", "Mkb.Auth.Services\Mkb.Auth.Services.csproj", "{A22B7166-5D85-4F99-A5D2-263196DFEE40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mkb.Auth.Middleware", "Mkb.Auth.Middleware\Mkb.Auth.Middleware.csproj", "{4723208A-C886-45F5-B8A0-0EF3820C0F5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9722D0EB-7270-4CD4-A37E-7D47A540C4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9722D0EB-7270-4CD4-A37E-7D47A540C4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9722D0EB-7270-4CD4-A37E-7D47A540C4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9722D0EB-7270-4CD4-A37E-7D47A540C4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41F7CA8-2DFE-4246-976E-5252BA822085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41F7CA8-2DFE-4246-976E-5252BA822085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41F7CA8-2DFE-4246-976E-5252BA822085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41F7CA8-2DFE-4246-976E-5252BA822085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D3D73D-79A0-4854-99DB-EA40C7D2431A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D3D73D-79A0-4854-99DB-EA40C7D2431A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D3D73D-79A0-4854-99DB-EA40C7D2431A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D3D73D-79A0-4854-99DB-EA40C7D2431A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514D027A-E769-4B72-8F6F-694A241EF364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514D027A-E769-4B72-8F6F-694A241EF364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514D027A-E769-4B72-8F6F-694A241EF364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514D027A-E769-4B72-8F6F-694A241EF364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22B7166-5D85-4F99-A5D2-263196DFEE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22B7166-5D85-4F99-A5D2-263196DFEE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22B7166-5D85-4F99-A5D2-263196DFEE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22B7166-5D85-4F99-A5D2-263196DFEE40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4723208A-C886-45F5-B8A0-0EF3820C0F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4723208A-C886-45F5-B8A0-0EF3820C0F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4723208A-C886-45F5-B8A0-0EF3820C0F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4723208A-C886-45F5-B8A0-0EF3820C0F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
