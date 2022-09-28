@@ -14,3 +14,6 @@ that is in the start up if you change it to
 ```
 
 will swap it to use sql .. so you can play with both
+
+
+full run through found here https://www.youtube.com/watch?v=HlRx1ORF_1Y&t=135s
